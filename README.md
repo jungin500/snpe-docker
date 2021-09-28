@@ -1,4 +1,5 @@
-Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing Engine)  
+Unofficial Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing Engine)  
+
 [![SNPE Version](https://img.shields.io/badge/snpe-1.53.2-blue)](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532) [![jungin500/snpe-docker](https://img.shields.io/badge/github-jungin500%2Fsnpe--docker-brightgreen)](https://github.com/jungin500/snpe-docker) [![jungin500/snpe](https://img.shields.io/badge/docker-jungin500%2Fsnpe-blue)](https://hub.docker.com/r/jungin500/snpe)
 
 # Description
@@ -10,8 +11,7 @@ Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing E
     3.5. Open Source Prohibition.
     LICENSEE shall not ... incorporate, link, distribute or use any third party software or code in conjunction with any part of a PKLA Product Kit ...
     ```
-- If you agree the [Full License](https://developer.qualcomm.com/license/snapdragon-developer-tools-license), you could [download](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532) SNPE SDK.  
-    I DO NOT REPRESENT QUALCOMM NOR GUARANTEE ACCEPTANCE OF USAGE OF SNPE. use it at your own risk. I would recommend use it for educational/study purpose.
+- If you agree the [Full License](https://developer.qualcomm.com/license/snapdragon-developer-tools-license), you could [download](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532) SNPE SDK. Recommending to use it for educational/study purpose.
 
 # Requirements
 - Windows(Docker Desktop with WSL2), Linux
