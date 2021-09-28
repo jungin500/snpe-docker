@@ -1,4 +1,5 @@
-Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing Engine)
+Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing Engine)  
+[![SNPE Version](https://img.shields.io/badge/snpe-1.53.2-blue)](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532) [![jungin500/snpe-docker](https://img.shields.io/badge/github-jungin500%2Fsnpe--docker-brightgreen)](https://github.com/jungin500/snpe-docker) [![jungin500/snpe](https://img.shields.io/badge/docker-jungin500%2Fsnpe-blue)](https://hub.docker.com/r/jungin500/snpe)
 
 # Description
 - I've packaged Qualcomm's SNPE SDK into dockerized environment, as installing Caffe over different environment took ALMOST FULL DAY for me! (BVLC/caffe didn't supplied python wheel file, and caffe V1 repository was deprecated as there was no updates in recent 2 years!)
