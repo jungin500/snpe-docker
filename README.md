@@ -1,6 +1,6 @@
 Unofficial Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing Engine)  
 
-[![SNPE Version](https://img.shields.io/badge/snpe-1.53.2-blue)](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) [![jungin500/snpe-docker](https://img.shields.io/badge/github-jungin500%2Fsnpe--docker-brightgreen)](https://github.com/jungin500/snpe-docker) [![jungin500/snpe](https://img.shields.io/badge/docker-jungin500%2Fsnpe-blue)](https://hub.docker.com/r/jungin500/snpe)
+[![SNPE Version](https://img.shields.io/badge/snpe-1.53.2-blue)](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk/tools) [![jungin500/snpe-docker](https://img.shields.io/badge/github-jungin500%2Fsnpe--docker-brightgreen)](https://github.com/jungin500/snpe-docker) [![jungin500/snpe](https://img.shields.io/badge/docker-jungin500%2Fsnpe-blue)](https://hub.docker.com/r/jungin500/snpe)
 
 # Description
 - I've packaged Qualcomm's SNPE SDK into dockerized environment, as installing Caffe over different environment took ALMOST FULL DAY for me! (BVLC/caffe didn't supplied python wheel file, and caffe V1 repository was deprecated as there was no updates in recent 2 years!)
@@ -11,7 +11,7 @@ Unofficial Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural P
     3.5. Open Source Prohibition.
     LICENSEE shall not ... incorporate, link, distribute or use any third party software or code in conjunction with any part of a PKLA Product Kit ...
     ```
-- If you agree the [Full License](https://developer.qualcomm.com/license/snapdragon-developer-tools-license), you could [download](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) SNPE SDK. Recommending to use it for educational/study purpose.
+- If you agree the [Full License](https://developer.qualcomm.com/license/snapdragon-developer-tools-license), you could [download](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk/tools) SNPE SDK. Recommending to use it for educational/study purpose.
 
 # Requirements
 - Windows(Docker Desktop with WSL2), Linux
