@@ -1,6 +1,6 @@
 Unofficial Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural Processing Engine)  
 
-[![SNPE Version](https://img.shields.io/badge/snpe-1.53.2-blue)](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532) [![jungin500/snpe-docker](https://img.shields.io/badge/github-jungin500%2Fsnpe--docker-brightgreen)](https://github.com/jungin500/snpe-docker) [![jungin500/snpe](https://img.shields.io/badge/docker-jungin500%2Fsnpe-blue)](https://hub.docker.com/r/jungin500/snpe)
+[![SNPE Version](https://img.shields.io/badge/snpe-1.53.2-blue)](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) [![jungin500/snpe-docker](https://img.shields.io/badge/github-jungin500%2Fsnpe--docker-brightgreen)](https://github.com/jungin500/snpe-docker) [![jungin500/snpe](https://img.shields.io/badge/docker-jungin500%2Fsnpe-blue)](https://hub.docker.com/r/jungin500/snpe)
 
 # Description
 - I've packaged Qualcomm's SNPE SDK into dockerized environment, as installing Caffe over different environment took ALMOST FULL DAY for me! (BVLC/caffe didn't supplied python wheel file, and caffe V1 repository was deprecated as there was no updates in recent 2 years!)
@@ -11,12 +11,12 @@ Unofficial Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural P
     3.5. Open Source Prohibition.
     LICENSEE shall not ... incorporate, link, distribute or use any third party software or code in conjunction with any part of a PKLA Product Kit ...
     ```
-- If you agree the [Full License](https://developer.qualcomm.com/license/snapdragon-developer-tools-license), you could [download](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532) SNPE SDK. Recommending to use it for educational/study purpose.
+- If you agree the [Full License](https://developer.qualcomm.com/license/snapdragon-developer-tools-license), you could [download](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) SNPE SDK. Recommending to use it for educational/study purpose.
 
 # Requirements
 - Windows(Docker Desktop with WSL2), Linux
 - Docker
-- Qualcomm Neural Processing SDK for AI v1.53.2 (or newer): [Download snpe-1.53.2.zip](https://developer.qualcomm.com/downloads/qualcomm-neural-processing-sdk-ai-v1532)
+- Qualcomm Neural Processing SDK for AI v1.53.2 (or newer): [Download snpe-1.53.2.zip](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk)
     - WARNING: Version under (or same as) `SNPE 1.48.0` would not work. Qualcomm changed host platform from Ubuntu 16.04 to 18.04, and a lot of libraries are changed. Try at your own adventure.
 - Boost 1.77.0 source: [Download boost_1_77_0.tar.gz](https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source)  
   (Be aware that boost's distribution platform `jfrog` didn't let me automatically download their sourcecode using wget!)
@@ -29,7 +29,7 @@ Unofficial Dockerized Qualcomm Neural Processing SDK (SNPE - Snapdragon Neural P
     docker run \
         -it --rm \
         -v ${SNPE_ROOT}:/snpe \
-        jungin500/snpe:1.53.2-2811
+        jungin500/snpe:1.5x
     ```
 
 4. (Optional) Run examples inside SNPE SDK's `/snpe/models` directory:
